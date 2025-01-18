@@ -1,0 +1,261 @@
+.Landing {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+}
+.Circle {
+    position: absolute;
+    width: 50vw;
+    height: auto;
+    top: 0dvh;
+    left: 25vw;
+}
+.Heading{
+    position: absolute;
+    top: 12vh;
+    left: 5vw;
+    padding: 0;
+    margin: 0;
+    width: 40vw;
+    text-align: left;
+    font-size: 4vw;
+    color: white;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.Heading_2{
+    position: absolute;
+    top: 60vh;
+    right: 5vw;
+    padding: 0;
+    margin: 0;
+    width: 40vw;
+    text-align: right;
+    font-size: 4vw;
+    color: white;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.R_Hospital {
+    position: absolute;
+    top: 100dvh;
+    left: 0vw;
+    .Blue_Left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60vw;
+        height: 100dvh;
+        background-color: #2b1d3c;
+        border : 0.3px solid rgba(255, 255, 255, 0.233);
+        h1 {
+            color: white;
+            font-size: 4vw;
+            padding-left: 2vw;
+            padding-top: 30vh;
+            width: 26vw;
+            font-family: "Jersey 15", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+    .Image_Right {
+        position: absolute;
+        top: 0;
+        left: 55vw;
+        width: 45vw;
+        height: 100dvh;
+        video {
+            width: 45vw;
+            height: auto;
+            border : 0.3px solid rgba(255, 255, 255, 0.233);
+        }
+    }
+}
+.R_Hospital_Box {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    width: 25vw;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 0.3px solid rgba(255, 255, 255, 0.233);
+    h2 {
+        color: white;
+        font-size: 2vw;
+        padding-left: 1vw;
+        padding-top: 1vw;
+        padding-bottom: 0;
+        margin: 0;
+        color: #55367c;
+        font-family: "Jersey 15", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    img {
+        width: 90%;
+        margin-left: 5%;
+    }
+    p {
+        color: white;
+        font-size: 0.6vw;
+        padding-left: 1vw;
+        font-family: "Space Mono", serif;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    button {
+        width: 23vw;
+        margin-left: 1vw;
+        margin-bottom: 1vw;
+        background-color: #2b1d3c00;
+        border: 2px solid #55367c;
+        font-size: 0.8vw;
+        padding: 0.5vw;
+        font-family: "Space Mono", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    button:hover {
+        background-color: #55367c;
+        color: white;
+        
+    }
+}
+.R_Trainer {
+    position: relative;
+    top: 100dvh;
+    left: 0vw;
+    .Blue_Right {
+        position: absolute;
+        top: 0;
+        left: 45vw;
+        width: 55vw;
+        height: 100dvh;
+        background-color: #2b1d3c;
+        border : 0.3px solid rgba(255, 255, 255, 0.233);
+        h1 {
+            position: relative;
+            width: 22vw;
+            left: 30vw;
+            right: 0;
+            text-align: right;
+            color: white;
+            font-size: 4vw;
+            padding-right: 3vw;
+            padding-top: 30vh;
+            font-family: "Jersey 15", serif;
+            font-weight: 400;
+            font-style: normal;
+            
+        }
+    }
+    .Image_Left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 45vw;
+        height: 100dvh;
+        overflow: hidden;
+        video {
+            width: 45vw;
+            height: auto;
+            overflow: hidden;
+            border : 0.3px solid rgba(255, 255, 255, 0.233);
+        }
+    }
+}
+.R_Trainer_Box {
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+    width: 25vw;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 0.3px solid rgba(255, 255, 255, 0.233);
+    h2 {
+        color: white;
+        font-size: 2vw;
+        padding-left: 1vw;
+        padding-top: 1vw;
+        margin: 0;
+        color: #55367c;
+        font-family: "Jersey 15", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    img {
+        width: 90%;
+        margin-left: 5%;
+    }
+    p {
+        color: white;
+        font-size: 0.6vw;
+        padding-left: 1vw;
+        font-family: "Space Mono", serif;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    button {
+        width: 23vw;
+        margin-left: 1vw;
+        margin-bottom: 1vw;
+        background-color: #2b1d3c00;
+        border: 2px solid #55367c;
+        font-family: "Space Mono", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    button:hover {
+        background-color: #55367c;
+        color: white;
+        
+    }
+}
+
+.Footer {
+    position: relative;
+    top: 200dvh;
+    width: 100vw;
+    height: 50dvh;
+    background-color: black;
+    border : 0.3px solid rgba(255, 255, 255, 0.233);
+    overflow: hidden;
+}
+.Flexer {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    padding: 3vw;
+    font-family: "Space Mono", serif;
+    font-weight: 300;
+    font-style: normal;
+    overflow: hidden;
+    ul {
+        line-height: 2;
+        li {
+            font-family: "Space Mono", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #55367c;
+            text-decoration-style: none;
+            list-style-type: none;
+        }
+        li:hover {
+            color: #6c459c;
+        }
+    }
+    img {
+        transform: translateY(-100px);
+        width: 30vw;
+    }
+}

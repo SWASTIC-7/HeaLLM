@@ -1,0 +1,48 @@
+.Top {
+    position: absolute;
+    top: 90dvh;
+    width: 96vw;
+    left: 2vw;
+}
+.Bottom {
+    position: absolute;
+    top: 99dvh;
+    width: 96vw;
+    left: 2vw;
+}
+.Details {
+    position: absolute;
+    top: 90dvh;
+    display: flex;
+    justify-content: space-between;
+    width: 94vw;
+    left: 3vw;
+    h2 {
+        font-size: 0.8vw;
+        font-family: "Space Mono", serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 2vw;
+    }
+    div {
+        border-right : 0.3px solid rgba(255, 255, 255, 0.233);
+        width: 23.5vw;
+    }
+    img{
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 20vw;
+    }
+}
+.live {
+    
+    height: 10px;
+    width: 10px !important;
+    padding: 0;
+    margin-left: 3vw;
+    background-color: red;
+    border-radius: 50%;
+
+
+}
